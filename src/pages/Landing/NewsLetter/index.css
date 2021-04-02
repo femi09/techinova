@@ -1,0 +1,140 @@
+.container {
+  width: 100%;
+  position: relative;
+  margin-top: 12.25rem;
+}
+
+.container img {
+  position: absolute;
+  width: 100%;
+  opacity: 0.6;
+  display: block;
+  height: auto;
+  backface-visibility: hidden;
+}
+
+.newsLetter__content {
+  font-family: "Rubik", sans-serif;
+  width: 66.6%;
+  margin: 2rem auto;
+  background-color: #3c3e7d30;
+  opacity: 1;
+  text-align: center;
+  padding: 3.125rem 0 3.25rem;
+  border-radius: 5px;
+}
+
+.heading {
+  margin-bottom: 1.25rem;
+  color: #f2994a;
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+  font-weight: bold;
+}
+
+.sub_heading {
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 45%;
+  margin: 0 auto 1.4375rem;
+  line-height: 1.375rem;
+}
+
+.form_group {
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+
+.form_group input {
+  border: none;
+  padding: 0.8rem;
+}
+
+.form_input {
+  flex: 0.8;
+  background-color: rgba(60, 62, 125, 0.19);
+}
+
+::placeholder {
+  color: rgb(255, 255, 255, 2);
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: rgba(255, 255, 255, 1);
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255, 1);
+}
+
+.form-btn {
+  font-weight: 500;
+  background-color: #f2994a;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  flex: 0.2;
+}
+
+.form_info {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 0.875rem;
+  color: #8476aa;
+  letter-spacing: 0.2px;
+  line-height: 1.25rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .newsLetter__content {
+    width: 75%;
+  }
+
+  .sub_heading {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .newsLetter__content {
+    width: 90%;
+  }
+
+  .sub_heading {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: 4rem;
+  }
+  .newsLetter__content {
+    width: 95%;
+  }
+
+  .sub_heading {
+    width: 80%;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    line-height: 2.65rem;
+  }
+
+  .sub_heading {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .form_group {
+    width: 90%;
+  }
+
+  .form_info {
+    font-size: 0.675rem;
+    line-height: 1rem;
+  }
+}

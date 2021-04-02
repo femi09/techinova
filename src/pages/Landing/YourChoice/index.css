@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../../../assets/Gilroy-Bold.ttf") format("tff");
+}
+
+.yourChoice {
+  position: relative;
+}
+
+.yourChoice img {
+  position: absolute;
+  opacity: 0.1;
+  width: 100%;
+  bottom: 4%;
+}
+
+.yourChoice__container {
+  margin: 0 auto;
+  width: 66.67%;
+}
+
+.yourChoice__title {
+  text-align: center;
+}
+
+.yourChoice__title .heading {
+  font-family: "Inter", sans-serif;
+  font-size: 2.625rem;
+  color: #99efd0;
+  font-weight: bold;
+  line-height: 3.125rem;
+  margin-bottom: 0.8125rem;
+}
+
+.yourChoice__title .sub_heading {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #8476aa;
+  font-family: "Gilroy-Semibold", sans-serif;
+  margin-bottom: 3.125rem;
+}
+
+.yourChoice__categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upper {
+  margin-bottom: 2.5rem;
+}
+
+.yourChoice__categories .column {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.column_content {
+  margin-left: 2rem;
+}
+
+.column_title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.375rem;
+  color: #99efd0;
+  margin-bottom: 0.625rem;
+}
+
+.column_text {
+  font-size: 0.875rem;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  line-height: 1.375rem;
+  color: #8476aa;
+}
+
+@media only screen and (min-width: 1440px) {
+  .yourChoice img {
+    position: absolute;
+    opacity: 0.1;
+    width: 100%;
+    bottom: 4%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yourChoice img {
+    position: absolute;
+    opacity: 0.1;
+    width: 100%;
+    bottom: 30%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .yourChoice__container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .yourChoice__container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .yourChoice__container {
+    width: 100%;
+  }
+
+  .yourChoice__title .heading {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .yourChoice__title .sub_heading {
+    font-size: 0.875rem;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .yourChoice img {
+    position: absolute;
+    opacity: 0.1;
+    display: none;
+    bottom: 4%;
+  }
+
+  .yourChoice__categories {
+    flex-direction: column;
+  }
+
+  .upper {
+    margin: 0;
+  }
+
+  .yourChoice__categories .column {
+    flex: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .column_content {
+    margin-left: 2rem;
+  }
+
+  .column_title {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .column_text {
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    color: #8476aa;
+  }
+}

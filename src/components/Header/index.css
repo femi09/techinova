@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 4.93rem auto 2rem;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav li {
+  margin-right: 1.5rem;
+  list-style-type: none;
+  font-size: 0.75rem;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  color: #b5b5b5;
+  letter-spacing: 2px;
+  line-height: 1.25rem;
+}
+
+.header__left .btn-primary {
+  margin-left: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 90%;
+    margin: 2.47rem 1rem 0rem;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}

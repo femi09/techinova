@@ -1,0 +1,189 @@
+.findingInfo {
+  width: 100%;
+  position: relative;
+}
+
+.findingInfo .right_stroke {
+  position: absolute;
+  bottom: -20%;
+  right: 0;
+}
+
+.findingInfo__container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.findingInfo__right {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.findingInfo__left {
+  margin-right: 5rem;
+}
+
+.findingInfo__right .main_text {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.625rem;
+  line-height: 2rem;
+  color: #99efd0;
+  letter-spacing: 0.325px;
+  margin-bottom: 2rem;
+}
+
+.findingInfo__right .sub_text {
+  font-family: "Gilroy-Semibold", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+  color: #8476aa;
+}
+
+.features_container {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  width: 80%;
+}
+
+.feature_one,
+.feature_two {
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.features_container p {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  color: #99efd0;
+  margin-bottom: 0.5rem;
+}
+
+.features_container span {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  color: #8476aa;
+}
+
+.right_strokes {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  .findingInfo__left {
+    margin-right: 4rem;
+  }
+
+  .feature_one,
+  .feature_two {
+    width: 80%;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .findingInfo__container {
+    width: 90%;
+  }
+  .findingInfo__left img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .findingInfo__left {
+    margin-right: 2.5rem;
+  }
+
+  .feature_one,
+  .feature_two {
+    width: 70%;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .findingInfo__container {
+    width: 90%;
+  }
+  .findingInfo__left img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .findingInfo__left {
+    margin-right: 2.5rem;
+  }
+
+  .feature_one,
+  .feature_two {
+    width: 70%;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .findingInfo__container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .findingInfo__left img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .findingInfo__left {
+    margin-right: 0;
+  }
+
+  .feature_one,
+  .feature_two {
+    margin-right: 0.5rem;
+  }
+
+  .findingInfo__left {
+    margin-right: 0;
+  }
+
+  .findingInfo__right .main_text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .findingInfo__right .sub_text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+  .features_container {
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .feature_one,
+  .feature_two {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .features_container p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .right_strokes {
+    width: 65%;
+    display: none;
+  }
+}
