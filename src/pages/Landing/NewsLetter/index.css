@@ -62,7 +62,7 @@
 
 ::-webkit-input-placeholder {
   /* Edge */
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.19);
 }
 
 :-ms-input-placeholder {
