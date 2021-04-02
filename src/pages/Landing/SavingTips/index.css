@@ -33,7 +33,7 @@
 }
 
 .savingTips__subtextWrapper {
-  font-family: "Gilroy-SemiBold", sans-serif;
+  font-family: "Rubik", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@
   font-size: 0.9375rem;
   margin: 2rem auto;
   text-align: center;
-  width: 50%;
+  width: 70%;
   color: #8476aa;
   letter-spacing: 0.2px;
   line-height: 1.25rem;
@@ -58,6 +58,7 @@
 
 .savingTips__topics .topic {
   flex: 0.29;
+  font-family: "Rubik", sans-serif;
 }
 
 .topic_middle {
@@ -65,6 +66,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  font-family: "Rubik", sans-serif;
 }
 
 .topic p,
@@ -81,7 +83,6 @@
 .topic span,
 .topic_middle span {
   font-size: 0.9375rem;
-  font-family: "Gilroy-SemiBold", sans-serif;
   color: #8476aa;
   letter-spacing: 0.2px;
   line-height: 1.25rem;
@@ -145,27 +146,6 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .savingTips__container {
-    width: 75%;
-  }
-
-  .savingTips__textWrapper {
-    width: 80%;
-  }
-
-  .savingTips__subtextWrapper {
-    width: 75%;
-  }
-
-  .savingTips__topics .topic {
-    flex: 0.3;
-  }
-
-  .savingTips__topics {
-    width: 100%;
-  }
-}
 
 @media only screen and (max-width: 600px) {
   .savingTips__container {

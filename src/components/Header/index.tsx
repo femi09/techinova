@@ -1,13 +1,11 @@
 import React from "react";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import "./index.css"
 const Header = () => {
   return (
     <div className="header">
       <div className="header__right">
-        {/* logo */}
         <Logo />
-        {/* nav */}
         <div className="header__nav">
           <ul>
             <li>ABOUT</li>

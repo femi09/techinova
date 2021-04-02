@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
-import { ReactComponent as LTEIcon } from "../../../assets/lte2.svg";
-import { ReactComponent as SwissKnifeIcon } from "../../../assets/swiss-knife.svg";
+import { ReactComponent as LTEIcon } from "../../../assets/images/lte2.svg";
+import { ReactComponent as SwissKnifeIcon } from "../../../assets/images/swiss-knife.svg";
 
 const FindingInfo = () => {
   return (

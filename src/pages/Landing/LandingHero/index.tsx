@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as MediaPlayer } from "../../../assets/media_player.svg";
+import { ReactComponent as MediaPlayer } from "../../../assets/images/media_player.svg";
 import  HeroImage  from "./HeroImages/HeroImage";
 import  HeroDottedImage  from "./HeroImages/HeroDottedImage";
 import  HeroFooterLogo from "./HeroImages/HeroFooter";

@@ -38,7 +38,6 @@
 }
 
 .findingInfo__right .sub_text {
-  font-family: "Gilroy-Semibold", sans-serif;
   font-size: 0.9375rem;
   line-height: 1.25rem;
   letter-spacing: 0.2px;
@@ -49,26 +48,24 @@
   display: flex;
   margin-top: 2rem;
   align-items: center;
-  width: 80%;
 }
 
 .feature_one,
 .feature_two {
   width: 100%;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .features_container p {
   font-family: "Inter";
   font-weight: bold;
-  font-size: 0.9375rem;
-  line-height: 1.125rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
   color: #99efd0;
   margin-bottom: 0.5rem;
 }
 
 .features_container span {
-  font-family: "Gilroy-SemiBold", sans-serif;
   color: #8476aa;
 }
 

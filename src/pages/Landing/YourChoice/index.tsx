@@ -1,10 +1,10 @@
 import React from "react";
-import { ReactComponent as FlipHorizontalIcon } from "../../../assets/flip-horizontal.svg";
-import { ReactComponent as BulbIcon } from "../../../assets/bulb.svg";
-import { ReactComponent as AttachmentIcon } from "../../../assets/attachment.svg";
-import { ReactComponent as AirpodsIcon } from "../../../assets/airpods.svg";
-import { ReactComponent as LTEIcon } from "../../../assets/lte.svg";
-import { ReactComponent as ThunderMoveIcon } from "../../../assets/thunder-move.svg";
+import { ReactComponent as FlipHorizontalIcon } from "../../../assets/images/flip-horizontal.svg";
+import { ReactComponent as BulbIcon } from "../../../assets/images/bulb.svg";
+import { ReactComponent as AttachmentIcon } from "../../../assets/images/attachment.svg";
+import { ReactComponent as AirpodsIcon } from "../../../assets/images/airpods.svg";
+import { ReactComponent as LTEIcon } from "../../../assets/images/lte.svg";
+import { ReactComponent as ThunderMoveIcon } from "../../../assets/images/thunder-move.svg";
 import "./index.css";
 const YourChoice = () => {
   return (

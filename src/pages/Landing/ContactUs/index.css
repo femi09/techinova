@@ -1,5 +1,5 @@
 .contactUs {
-  margin: 6rem auto;
+  margin: 8rem auto;
   width: 66.6%;
   display: flex;
   align-items: flex-start;
@@ -26,7 +26,6 @@
 
 .contactUs .sub_text {
   font-size: 0.9375rem;
-  font-family: "Gilroy-SemiBold" sans-serif;
   letter-spacing: 0.5px;
   line-height: 1.75rem;
   color: #8476aa;

@@ -7,10 +7,9 @@
 .container img {
   position: absolute;
   width: 100%;
-  opacity: 0.6;
-  display: block;
-  height: auto;
-  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
 }
 
 .newsLetter__content {
@@ -58,7 +57,7 @@
 }
 
 ::placeholder {
-  color: rgb(255, 255, 255, 2);
+  color: rgba(255, 255, 255, 0.19);
 }
 
 ::-webkit-input-placeholder {
@@ -80,7 +79,7 @@
 }
 
 .form_info {
-  font-family: "Gilroy-SemiBold", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 0.875rem;
   color: #8476aa;
   letter-spacing: 0.2px;
@@ -94,6 +93,15 @@
 
   .sub_heading {
     width: 50%;
+  }
+
+  .container img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0.25;
+    transform: translate(-50%, -50%);
   }
 }
 
